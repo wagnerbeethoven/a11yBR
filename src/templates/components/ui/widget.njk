@@ -1,7 +1,0 @@
-<webring-banner{% if webringScheme %} scheme="{{ webringScheme }}"{% endif %}{% if webringTheme %} theme="{{ webringTheme }}"{% endif %}{% if webringClass %} class="{{ webringClass }}"{% endif %}>
-    <p>Member of the <a href="{{ meta.baseUrl }}">{{ site.title }}</a> webring</p>
-    <a href="{{ meta.baseUrl }}/previous">Previous</a>
-    <a href="{{ meta.baseUrl }}/random">Random</a>
-    <a href="{{ meta.baseUrl }}/next">Next</a>
-</webring-banner>
-{% if not excludeScript %}<script async src="{{ meta.baseUrl }}/embed.js"></script>{% endif %}

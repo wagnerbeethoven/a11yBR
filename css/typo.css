@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Oferta do Dia';
+    src: url('../fonts/ofertadodia.eot');
+    src: url('../fonts/ofertadodia.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ofertadodia.woff2') format('woff2'),
+        url('../fonts/ofertadodia.woff') format('woff'),
+        url('../fonts/ofertadodia.ttf') format('truetype'),
+        url('../fonts/') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
